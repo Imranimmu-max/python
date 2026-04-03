@@ -1,18 +1,11 @@
-#basic structure of dictionary
 profile = {
-    "name" : "imran",
+    'name' : "imran",
     "age" : 19,
-    "city" : "chikaballapur"
+    "city" : "cbp"
 }
 print(profile)
 
-#accessing elements 
-print(profile["name"])
+for i in profile:
+    print(i,":",profile[i])
 
-#updatee lements 
-profile["name"] = "aliya"
-print("updated name",profile["name"])
-
-#adding elements :
-profile["frns"] = 3
-print("added frds",profile["frns"])
+print(profile.keys())

@@ -16,7 +16,11 @@ print(profile.items())
 std = {}
 
 std["name"] = input("enter ur name : ")
-std["age"]  = int(input("enter u r age "))
-std["city"] = input("enter u r city")
+std["age"]  = int(input("enter u r age : "))
+std["city"] = input("enter u r city : ")
+
+print(std)
+
+std["class "] =  int(input("eter u r class : "))
 
 print(std)
